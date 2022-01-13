@@ -1,6 +1,8 @@
 # 无图片CSS+Javascript自适应通用倒计时
 ## CSS+Javascript countdown timer without any pictures
 
+![preview](https://github.com/Godziillaa/customize-countdown-timer/blob/main/preview.jpg)
+
 >使用方法: 
 
 *引入style.css和main.js即可*
