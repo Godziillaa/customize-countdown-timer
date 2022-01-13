@@ -5,7 +5,7 @@
 
 *引入style.css和main.js即可*
 
-(```)
+```
 const clock = new Clock({
     ele: 'wrap', // 容器ID
     initial: 100, //初始时间，单位秒
@@ -25,7 +25,7 @@ const clock = new Clock({
         console.log('end');
     }
 });
-(```)
+```
 
 
 >开发环境: 
