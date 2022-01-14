@@ -50,7 +50,7 @@ const Clock = function (obj) {
 
 const clock1 = new Clock({
     ele: 'wrap1',
-    initial: 3500,
+    initial: 3501,
     effect: true,
     running(s) {
         // console.log(s);
@@ -61,7 +61,7 @@ const clock1 = new Clock({
 });
 const clock2 = new Clock({
     ele: 'wrap2',
-    initial: 3800,
+    initial: 3805,
     effect: true,
     running(s) {
         // console.log(s);
@@ -72,7 +72,7 @@ const clock2 = new Clock({
 });
 const clock3 = new Clock({
     ele: 'wrap3',
-    initial: 13800,
+    initial: 13809,
     effect: true,
     running(s) {
         // console.log(s);
@@ -83,7 +83,7 @@ const clock3 = new Clock({
 });
 const clock4 = new Clock({
     ele: 'wrap4',
-    initial: 100,
+    initial: 103,
     running(res) {
         // console.log(res);
         // res = { raw: number, HH: '00', MM: '00', SS: '00', FOO: '00:00:00' }

@@ -46,63 +46,72 @@
   width: 96%;
   height: 40%;
   box-sizing: border-box;
-  border: #008000 solid 4px;
+  border-left: #008000 solid 4px;
+  border-right: #008000 solid 4px;
+  border-radius: 4px;
 }
 .count-wrap .dig-wrap .dig-item::before {
-  border-bottom: 0;
+  border-top: #008000 solid 4px;
+  border-bottom: #008000 solid 2px;
 }
 .count-wrap .dig-wrap .dig-item::after {
-  margin-top: -4px;
+  border-top: #008000 solid 2px;
+  border-bottom: #008000 solid 4px;
 }
 .count-wrap .dig-wrap .dig-item.dig-1::before {
-  border-top: 0;
-  border-left: 0;
+  border-top-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-1::after {
-  border-left: 0;
-  border-bottom: 0;
-  border-top: 0;
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-top-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-2::before {
-  border-left: 0;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-2::after {
-  border-right: 0;
+  border-right-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-3::before {
-  border-left: 0;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-3::after {
-  border-left: 0;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-4::before {
-  border-top: 0;
+  border-top-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-4::after {
-  border-bottom: 0;
-  border-left: 0;
+  border-bottom-color: #e7f8e7;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-5::before {
-  border-right: 0;
+  border-right-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-5::after {
-  border-left: 0;
+  border-left-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-6::before {
-  border-right: 0;
+  border-right-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-7::before {
-  border-left: 0;
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-7::after {
-  border-left: 0;
-  border-bottom: 0;
-  border-top: 0;
+  border-left-color: #e7f8e7;
+  border-bottom-color: #e7f8e7;
+  border-top-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-9::after {
-  border-left: 0;
+  border-left-color: #e7f8e7;
+}
+.count-wrap .dig-wrap .dig-item.dig-0::before {
+  border-bottom-color: #e7f8e7;
 }
 .count-wrap .dig-wrap .dig-item.dig-0::after {
-  border-top: 0;
+  border-top-color: #e7f8e7;
 }
 /*# sourceMappingURL=./style.css.map */
