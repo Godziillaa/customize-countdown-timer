@@ -11,6 +11,7 @@
 const clock = new Clock({
     ele: 'wrap', // 容器ID
     initial: 100, //初始时间，单位秒
+    autoStart: false, //是否启动，默认true
     effect: true, //是否使用案例效果，默认不开启
     running(res) { //运行时回调方法
         /*
@@ -27,6 +28,11 @@ const clock = new Clock({
         console.log('end');
     }
 });
+
+clock3.start(); //开始
+clock.pause(); //暂停
+clock3.restart(); //重新开始
+
 ```
 
 
