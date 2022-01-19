@@ -4,9 +4,9 @@
 ![preview](https://github.com/Godziillaa/customize-countdown-timer/blob/main/preview-new.jpg)
 
 >使用方法: 
-*最大支持 99:59:59*
 
 *引入style.css和main.js即可*
+*最大支持 99:59:59*
 
 ```
 const clock = new Clock({
