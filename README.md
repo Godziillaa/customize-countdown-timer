@@ -4,6 +4,7 @@
 ![preview](https://github.com/Godziillaa/customize-countdown-timer/blob/main/preview-new.jpg)
 
 >使用方法: 
+*最大支持 99:59:59*
 
 *引入style.css和main.js即可*
 
@@ -20,7 +21,7 @@ const clock = new Clock({
             HH: '00', //小时
             MM: '00', //分钟
             SS: '00', //秒
-            FOO: '00:00:00' //格式化时分秒
+            formated: '00:00:00' //格式化时分秒
         }
         */
     },
